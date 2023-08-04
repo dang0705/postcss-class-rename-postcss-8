@@ -4,7 +4,7 @@ module.exports =  (options) => {
   if (!isObject) return;
 
   return {
-    postcssPlugin:"postcss-class-rename-pc-8",
+    postcssPlugin:"postcss-class-rename-8",
     Once (root){
       const replaceClass = (pattern, replacement) => {
         if (typeof pattern !== "string") {

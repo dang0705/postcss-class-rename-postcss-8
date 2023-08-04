@@ -1,6 +1,6 @@
 {
-  "name": "postcss-class-rename",
-  "version": "1.0.1",
+  "name": "postcss-class-rename-8",
+  "version": "0.0.1",
   "description": "PostCSS plugin simply rename class without hassle",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,13 @@
     "css",
     "rename"
   ],
-  "author": "Yuehpeng Liu <brian.liu@stackla.com>",
+  "author": "JAY",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/LBrian/postcss-class-rename/issues"
-  },
-  "homepage": "https://github.com/LBrian/postcss-class-rename#readme",
   "devDependencies": {
-    "postcss": "^8.4.27"
+    "postcss": "^8.4.27",
+    "postcss-focus": "7.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   }
 }
